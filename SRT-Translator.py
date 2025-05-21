@@ -1,6 +1,5 @@
 import re
 from googletrans import Translator
-from nltk.tokenize import sent_tokenize
 
 def parse_srt(filename):
     with open(filename, 'r', encoding='utf-8') as f:
